@@ -1,3 +1,4 @@
+# The Problem is "Chances of Winning"
 fav_team = int(input(''))
 dict1 = {1:0,2:0,3:0,4:0}
 list1 = [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]
