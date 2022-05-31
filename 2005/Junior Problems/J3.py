@@ -1,20 +1,19 @@
-directions = []
-streets = []
+l = []
+s = []
 while True:
   direction = input('')
-  street = input('')
-  if direction=='L':
-    directions.insert(0,'RIGHT')
-  elif direction=='R':
-    directions.insert(0,'LEFT')
-  streets.append(street)
-  if street == 'SCHOOL':
-    break
-streets = list(reversed(streets))
-streets.pop(0)
-streets.append('HOME')
-for n in range(0,len(directions)):
-  if streets[n]!='HOME':
-    print('Turn',directions[n],'onto',streets[n],'street.')
+  if direction=='R':
+    l.insert(0,'LEFT')
   else:
-    print('Turn',directions[n],'into your HOME.')
+    l.insert(0,'RIGHT')
+  street = input('')
+  if street!='SCHOOL':
+    s.insert(0,street)
+  else:
+    s.append('HOME')
+    break
+for q,y in enumerate(l):
+  if s[q]!='HOME':
+    print('Turn',y,'onto',s[q],'street.')
+  else:
+    print('Turn',y,'into your HOME.')
