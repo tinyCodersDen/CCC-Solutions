@@ -5,3 +5,4 @@ Here you will find the solutions to junior and senior problems that I can solve(
 [Unofficial Solutions Website](http://mmhs.ca/ccc/index.htm). You can find the questions at [Past Contests](https://cemc.uwaterloo.ca/contests/past_contests.html#ccc).
 
 UPDATE: C++ Solutions have been added to 2020 CCC questions
+NEW UPDATE: Java Solutions have been added to 2020 CCC questions
